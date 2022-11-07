@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_bank_currencies_bank_currencies",
+  "info": {
+    "displayName": "bankCurrencies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accountNumber": {
+      "type": "text"
+    },
+    "iban": {
+      "type": "text"
+    },
+    "currencyName": {
+      "type": "string"
+    }
+  }
+}
