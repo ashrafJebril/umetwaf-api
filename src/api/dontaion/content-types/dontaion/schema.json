@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dontaions",
+  "info": {
+    "singularName": "dontaion",
+    "pluralName": "dontaions",
+    "displayName": "Dontaion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "phone": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "dontaion": {
+      "pluginOptions": {},
+      "type": "biginteger"
+    },
+    "project": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::project.project",
+      "inversedBy": "dontaions"
+    }
+  }
+}
