@@ -29,6 +29,9 @@
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "dontaions"
+    },
+    "country": {
+      "type": "string"
     }
   }
 }

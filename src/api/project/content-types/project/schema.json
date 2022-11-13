@@ -77,6 +77,12 @@
       "relation": "oneToMany",
       "target": "api::dontaion.dontaion",
       "mappedBy": "project"
+    },
+    "campaigns": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::campaign.campaign",
+      "mappedBy": "projects"
     }
   }
 }
