@@ -83,6 +83,14 @@
       "relation": "manyToMany",
       "target": "api::campaign.campaign",
       "mappedBy": "projects"
+    },
+    "details": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
