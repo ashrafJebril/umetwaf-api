@@ -41,6 +41,16 @@
         }
       },
       "component": "says-about-waqf.says-about-waqf"
+    },
+    "homeMainImage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-main-image.home-main-image"
     }
   }
 }

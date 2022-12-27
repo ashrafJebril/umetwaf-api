@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_main_image_home_main_images",
+  "info": {
+    "displayName": "homeMainImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "campaign": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::campaign.campaign"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
