@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_video_slider_video_sliders",
+  "info": {
+    "displayName": "video-slider"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "text"
+    }
+  }
+}
