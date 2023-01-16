@@ -53,6 +53,12 @@
           "localized": true
         }
       }
+    },
+    "umetwaqf_product_project": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::umetwaqf-product-project.umetwaqf-product-project",
+      "inversedBy": "dontaions"
     }
   }
 }

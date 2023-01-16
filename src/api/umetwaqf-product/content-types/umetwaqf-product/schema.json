@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "umetwaqf_products",
+  "info": {
+    "singularName": "umetwaqf-product",
+    "pluralName": "umetwaqf-products",
+    "displayName": "umetwaqf-product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "type": "string"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "umetwaqf_product_projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::umetwaqf-product-project.umetwaqf-product-project"
+    }
+  }
+}

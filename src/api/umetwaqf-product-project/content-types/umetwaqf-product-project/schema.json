@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "umetwaqf_product_projects",
+  "info": {
+    "singularName": "umetwaqf-product-project",
+    "pluralName": "umetwaqf-product-projects",
+    "displayName": "umetwaqf-product-project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "dontaions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dontaion.dontaion",
+      "mappedBy": "umetwaqf_product_project"
+    }
+  }
+}
