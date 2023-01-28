@@ -22,7 +22,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phone": {
       "pluginOptions": {
@@ -30,7 +31,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "dontaion": {
       "pluginOptions": {
@@ -38,7 +40,8 @@
           "localized": true
         }
       },
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     },
     "project": {
       "type": "relation",
@@ -52,7 +55,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "umetwaqf_product_project": {
       "type": "relation",

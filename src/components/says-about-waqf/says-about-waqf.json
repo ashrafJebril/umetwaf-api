@@ -7,21 +7,20 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

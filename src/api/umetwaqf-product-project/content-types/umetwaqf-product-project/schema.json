@@ -4,7 +4,8 @@
   "info": {
     "singularName": "umetwaqf-product-project",
     "pluralName": "umetwaqf-product-projects",
-    "displayName": "umetwaqf-product-project"
+    "displayName": "umetwaqf-product-project",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,21 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "dontaions": {
       "type": "relation",

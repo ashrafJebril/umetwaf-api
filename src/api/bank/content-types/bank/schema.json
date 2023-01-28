@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bank",
     "pluralName": "banks",
-    "displayName": "Bank"
+    "displayName": "Bank",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

@@ -1,12 +1,14 @@
 {
   "collectionName": "components_video_slider_video_sliders",
   "info": {
-    "displayName": "video-slider"
+    "displayName": "video-slider",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

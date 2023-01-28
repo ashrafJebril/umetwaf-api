@@ -7,30 +7,32 @@
   "options": {},
   "attributes": {
     "bankName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bankImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "accountName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "branch": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "branchNumber": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "swift": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "currency": {
       "type": "component",

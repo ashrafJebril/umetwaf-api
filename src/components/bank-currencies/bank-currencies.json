@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "accountNumber": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "iban": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "currencyName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

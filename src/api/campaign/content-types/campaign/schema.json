@@ -22,7 +22,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "projects": {
       "type": "relation",
@@ -33,12 +34,9 @@
     "campaignImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ],
       "pluginOptions": {
         "i18n": {
@@ -52,7 +50,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "campaignDetails": {
       "type": "component",
@@ -70,7 +69,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "goal": {
       "pluginOptions": {
@@ -78,7 +78,8 @@
           "localized": true
         }
       },
-      "type": "integer"
+      "type": "integer",
+      "required": true
     }
   }
 }

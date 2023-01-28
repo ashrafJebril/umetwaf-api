@@ -1,19 +1,18 @@
 {
   "collectionName": "components_home_main_image_home_main_images",
   "info": {
-    "displayName": "homeMainImage"
+    "displayName": "homeMainImage",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "campaign": {
       "type": "relation",
@@ -21,7 +20,8 @@
       "target": "api::campaign.campaign"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

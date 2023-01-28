@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "video": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "mainImage": {
       "type": "media",
@@ -24,7 +25,8 @@
       ]
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "umetwaqf_product_projects": {
       "type": "relation",

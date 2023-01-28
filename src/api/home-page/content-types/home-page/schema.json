@@ -19,12 +19,9 @@
     "SliderImages": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ],
       "pluginOptions": {
         "i18n": {

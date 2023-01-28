@@ -13,13 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "data": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
