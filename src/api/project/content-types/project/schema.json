@@ -104,6 +104,16 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "umet_waqf_product": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

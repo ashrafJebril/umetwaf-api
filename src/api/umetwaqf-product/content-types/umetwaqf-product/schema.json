@@ -27,11 +27,6 @@
     "description": {
       "type": "text",
       "required": true
-    },
-    "umetwaqf_product_projects": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::umetwaqf-product-project.umetwaqf-product-project"
     }
   }
 }
