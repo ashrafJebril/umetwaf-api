@@ -16,11 +16,11 @@
     },
     "videoLink": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "textLink": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
