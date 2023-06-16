@@ -58,6 +58,16 @@
         }
       },
       "component": "video-slider.video-slider"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "all-campaigns.slider"
     }
   }
 }
