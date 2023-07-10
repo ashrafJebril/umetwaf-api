@@ -16,19 +16,6 @@
     }
   },
   "attributes": {
-    "SliderImages": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "AboutWaqf": {
       "type": "component",
       "repeatable": true,
@@ -59,7 +46,7 @@
       },
       "component": "video-slider.video-slider"
     },
-    "slider": {
+    "SliderImages": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -67,7 +54,7 @@
           "localized": true
         }
       },
-      "component": "all-campaigns.slider"
+      "component": "home-main-image.image-slider"
     }
   }
 }
