@@ -16,19 +16,6 @@
     }
   },
   "attributes": {
-    "SliderImages": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "AboutWaqf": {
       "type": "component",
       "repeatable": true,
@@ -58,6 +45,16 @@
         }
       },
       "component": "video-slider.video-slider"
+    },
+    "SliderImages": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home-main-image.image-slider"
     }
   }
 }
