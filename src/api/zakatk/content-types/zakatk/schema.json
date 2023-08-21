@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "zakatks",
+  "info": {
+    "singularName": "zakatk",
+    "pluralName": "zakatks",
+    "displayName": "Zakatk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.sections",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -21,6 +21,17 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "image_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "context": {
+      "type": "text"
     }
   }
 }

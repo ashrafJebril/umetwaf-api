@@ -12,17 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "data": {
-      "type": "text",
-      "required": true
-    },
-    "type": {
+    "email": {
       "type": "string",
       "required": true
     },
     "name": {
       "type": "string",
       "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }

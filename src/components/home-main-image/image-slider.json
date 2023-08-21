@@ -1,19 +1,27 @@
 {
   "collectionName": "components_home_main_image_image_sliders",
   "info": {
-    "displayName": "imageSlider"
+    "displayName": "imageSlider",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "link": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
