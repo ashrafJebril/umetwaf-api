@@ -16,6 +16,8 @@
     "@strapi/plugin-users-permissions": "4.4.5",
     "@strapi/strapi": "4.4.5",
     "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "strapi-google-auth": "^0.1.2",

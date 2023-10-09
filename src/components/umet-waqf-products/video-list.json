@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_umet_waqf_products_video_lists",
+  "info": {
+    "displayName": "video_list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video_frame": {
+      "type": "text"
+    }
+  }
+}

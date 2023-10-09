@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_zaka_of_aqsas",
+  "info": {
+    "displayName": "zaka_of_aqsa"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

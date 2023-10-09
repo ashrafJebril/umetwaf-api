@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_mufti_of_al_aqsas",
+  "info": {
+    "displayName": "Mufti of Al-Aqsa"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "context": {
+      "type": "text"
+    }
+  }
+}
