@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_all_campaigns_all_campaigns",
+  "info": {
+    "displayName": "all-campaigns"
+  },
+  "options": {},
+  "attributes": {
+    "campaign": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::campaign.campaign"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_umet_waqf_products_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  }
+}

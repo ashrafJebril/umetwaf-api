@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dontaions",
+  "info": {
+    "singularName": "dontaion",
+    "pluralName": "dontaions",
+    "displayName": "Dontaion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true
+    },
+    "dontaion": {
+      "pluginOptions": {},
+      "type": "biginteger",
+      "required": true
+    },
+    "project": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::project.project",
+      "inversedBy": "dontaions"
+    },
+    "country": {
+      "type": "string",
+      "pluginOptions": {},
+      "required": true
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "dontaions"
+    },
+    "give_away": {
+      "displayName": "give_away",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.give-away"
+    }
+  }
+}

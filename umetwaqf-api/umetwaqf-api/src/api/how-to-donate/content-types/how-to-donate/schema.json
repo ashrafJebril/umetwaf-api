@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_to_donates",
+  "info": {
+    "singularName": "how-to-donate",
+    "pluralName": "how-to-donates",
+    "displayName": "How to donate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "howToDonate": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "how-to-donate.how-to-donate"
+    }
+  }
+}

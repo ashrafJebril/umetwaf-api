@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_campaigns",
+  "info": {
+    "singularName": "all-campaign",
+    "pluralName": "all-campaigns",
+    "displayName": "All Campaign",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "campaigns": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "all-campaigns.all-campaigns"
+    }
+  }
+}

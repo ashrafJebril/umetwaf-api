@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_give_aways",
+  "info": {
+    "displayName": "give_away"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    }
+  }
+}

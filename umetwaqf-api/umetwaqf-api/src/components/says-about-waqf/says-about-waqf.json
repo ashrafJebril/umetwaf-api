@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_says_about_waqf_says_about_waqfs",
+  "info": {
+    "displayName": "SaysAboutWaqf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "context": {
+      "type": "text"
+    }
+  }
+}

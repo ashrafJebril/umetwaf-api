@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_how_to_donate_how_to_donates",
+  "info": {
+    "displayName": "howToDonate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "videoLink": {
+      "type": "string",
+      "required": false
+    },
+    "textLink": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

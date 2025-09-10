@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_campaign_details_campaign_details",
+  "info": {
+    "displayName": "campaign-details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "videoLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
